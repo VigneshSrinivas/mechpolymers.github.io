@@ -339,7 +339,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(250, 250, 250, 0.8);
+  background-color: rgba(250, 250, 250, 0.2);
 }
 #hero .carousel-container {
   display: flex;
@@ -540,7 +540,9 @@ section {
 }
 .featured-services .description {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 16px;
+  color: #3f7ad9;
+  font-weight: bold;
 }
 
 /*--------------------------------------------------------------
